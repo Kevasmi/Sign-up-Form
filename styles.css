@@ -59,9 +59,9 @@ a:visited, a:before {
 
 .banner>p {
     position: absolute;
-    color: rgba(250, 250, 250, .8);
-    bottom: 0;
+    bottom: 10px;
     left: 35%; 
+    color: rgba(250, 250, 250, .85);
     font-size: .8rem;
 }
 
