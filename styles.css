@@ -74,7 +74,7 @@ form input:focus {
     font-size: .8rem;
 }
 
-.credit-text a:visited, .credit-text a:before {
+.credit-text a:visited, .credit-text a {
     color: rgba(250, 250, 250, .8)!important; 
 }
 
