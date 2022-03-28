@@ -20,7 +20,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-a:visited, a:before {
+.banner>p a:visited, .banner>p a:before {
     color: rgba(250, 250, 250, .8);
 }
 
@@ -66,5 +66,65 @@ a:visited, a:before {
 }
 
 .information {
-    padding: 10px;
+    background-color: #eee;
+
+}
+
+.cta {
+    padding: 100px 20px 10px 40px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.info-inputs {
+    background-color: #fff;
+    box-shadow: 0px 3px #ddd;
+    padding: 20px 150px 35px 40px;
+}
+
+.name-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.password-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.submit-container {
+    padding: 20px 150px 35px 40px;
+}
+
+button[type="submit"] {
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.form-end-text {
+    margin-top: 30px;
+}
+
+.submit-container a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
