@@ -8,64 +8,62 @@
     <title>Sign-up Form</title>
 </head>
 <body>
-    <div class="main-container">
-        <div class="banner">
-            <div class="logo-container">
-                <img src="imgs/odin-lined.png" alt="Odin project logo that looks like Odin's head smiling">
-                <p>ODIN</p>
-            </div>
-            <p class="credit-text">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    <div class="banner">
+        <div class="logo-container">
+            <img src="imgs/odin-lined.png" alt="Odin project logo that looks like Odin's head smiling">
+            <p>ODIN</p>
         </div>
-        <div class="information">
-            <div class="cta">
-                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
-                Sign up <em>now</em> to get started.<br><br>
-                You <em>know</em> you want to.
-            </div>
-            <form action="get">
-                <section class="info-inputs">
-                    <p class="form-intro">Let's do this!</p>
-                    <div class="name-info">
-                        <p>
-                            <label for="first-name">First Name</label><br>
-                            <input type="text" id="first-name" name="first-name">
-                        </p>
-                        <p>
-                            <label for="last-name">Last Name</label><br>
-                            <input type="text" id="last-name" name="last-name">
-                        </p>
-                    </div>
-                    <div class="contact-info">
-                        <p>
-                            <label for="email">Email</label><br>
-                            <input type="email" id="email" name="email">
-                        </p>
-                        <p>
-                            <label for="phone-number">Phone Number</label><br>
-                            <input type="tel" id="phone-number" name="phone-number">
-                        </p>
-                    </div>
-                    <div class="password-info">
-                        <p>
-                            <label for="pass-input">Password</label><br>
-                            <input type="password" id="pass-input" name="password">
-                        </p>
-                        <p>
-                            <label for="pass-verify">Confirm Password</label><br>
-                            <input type="password" id="pass-verify" name="password-verify">
-                        </p>
-                    </div>
-                </section>
-                <section class="submit-container">
+        <p class="credit-text">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div class="information">
+        <div class="cta">
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+            Sign up <em>now</em> to get started.<br><br>
+            You <em>know</em> you want to.
+        </div>
+        <form action="/" method="get">
+            <section class="info-inputs">
+                <p class="form-intro">Let's do this!</p>
+                <div class="name-info">
                     <p>
-                        <button type="submit">Create Account</button>
+                        <label for="first-name">first name</label><br>
+                        <input type="text" id="first-name" name="first-name" required>
                     </p>
-                    <p class="form-end-text">
-                        Already have an account? <a href="https://www.pexels.com/search/cat/">Log in</a>
+                    <p>
+                        <label for="last-name">last name</label><br>
+                        <input type="text" id="last-name" name="last-name" required>
                     </p>
-                </section>
-            </form>
-        </div>
-    </div>  
+                </div>
+                <div class="contact-info">
+                    <p>
+                        <label for="email">email</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="phone-number">phone number</label><br>
+                        <input type="tel" id="phone-number" name="phone-number" required> 
+                    </p>
+                </div>
+                <div class="password-info">
+                    <p>
+                        <label for="pass">password</label><br>
+                        <input type="password" id="pass" name="password" required>
+                    </p>
+                    <p>
+                        <label for="pass-verify">confirm password</label><br>
+                        <input type="password" id="pass-verify" name="password-verify" required>
+                    </p>
+                </div>
+            </section>
+            <section class="submit-container">
+                <p>
+                    <button type="submit">Create Account</button>
+                </p>
+                <p class="form-end-text">
+                    Already have an account? <a href="https://www.pexels.com/search/cat/">Log in</a>
+                </p>
+            </section>
+        </form>
+    </div>
 </body>
 </html>
