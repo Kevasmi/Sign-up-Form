@@ -45,11 +45,6 @@ form input:focus {
     box-shadow: 2px 2px rgba(71, 70, 70, 0.4);
 }
 
-/* input[type="password"]:valid {
-    outline: none;
-    border: 2px solid rgb(45, 241, 6);
-} */
-
 .banner {
     position: relative;
     background-image: url(imgs/green-leaf-plant);
@@ -133,6 +128,10 @@ label {
     height: auto;
     gap: 60px;
     margin-top: 20px;
+}
+
+.optional {
+    color: rgba(146, 140, 140, 0.8);
 }
 
 .password-info {
