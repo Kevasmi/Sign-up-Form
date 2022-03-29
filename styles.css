@@ -34,28 +34,27 @@ input {
     font-weight: lighter;
 }
 
+.error {
+    outline: none;
+    border: 2px solid rgb(241, 6, 6);
+}
+
 form input:focus {
     outline: none;
     border: 2px solid #2578f5;
     box-shadow: 2px 2px rgba(71, 70, 70, 0.4);
 }
 
-input[type="password"]:valid {
+/* input[type="password"]:valid {
     outline: none;
     border: 2px solid rgb(45, 241, 6);
-}
-
-/* .main-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    min-height: 100vh;
-    height: auto;
 } */
 
 .banner {
     position: relative;
     background-image: url(imgs/green-leaf-plant);
     background-size: cover;
+    width: auto;
 }
 
 .logo-container {
@@ -141,6 +140,13 @@ label {
     height: auto;
     gap: 60px;
     margin-top: 20px;
+}
+
+#pass-message {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: .8rem;
+    color: red;
 }
 
 .submit-container {
